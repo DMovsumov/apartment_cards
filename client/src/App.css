@@ -1,0 +1,29 @@
+.App {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 10vw;
+}
+
+.FlatList {
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    overflow-y: auto;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1020px) {
+    .FlatList {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .FlatList {
+        justify-content: center;
+    }
+}
